@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subscribe</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <fieldset id="fieldset">
+            <legend><h2>Subscribe</h2></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <br>
+            <label for="number">Phone Number:</label>
+            <input type="number" id="number" name="number">
+            <br>
+            <br>
+            <label for="school">Uni/School:</label>
+            <input type="text" id="school" name="school">
+            <br>
+            <br>
+            <label for="course">Course:</label>
+            <select name="course" id="course">
+                <option >Web Development</option>
+                <option> Gaming</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="upload" id="submit">
+        </fieldset>
+    </form>
+</body>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
+
+<script src="main.js"></script>
+</html>
